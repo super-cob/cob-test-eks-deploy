@@ -1,0 +1,17 @@
+images:
+  image_name: 162808325377.dkr.ecr.us-east-1.amazonaws.com/cob-test-eks-user-image
+
+  registry:
+    provider: aws
+    aws:
+      zone: us-east-1
+      service_key: # FIXME: Use role assumpmtions when hubploy supports them
+      project: 162808325377
+
+
+cluster:
+  provider: aws
+  aws:
+      zone: us-east-1
+      service_key: # FIXME: Use role assumpmtions when hubploy supports them
+      cluster: cob-test-eks
