@@ -7,7 +7,7 @@
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal",
-            "args": ["build", "--push", "--check-registry", "cob-test-eks-deploy"]
+            "args": ["deploy", "cob-test-eks-deploy", "cob-test-eks-user-image", "staging"]
         }
     ]
 }

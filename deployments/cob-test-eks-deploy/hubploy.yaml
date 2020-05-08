@@ -7,6 +7,7 @@ images:
       zone: us-east-1
       service_key: # FIXME: Use role assumpmtions when hubploy supports them
       project: 162808325377
+      role: arn:aws:iam::162808325377:role/cob-test-eks-hubploy-ecr
 
 
 cluster:
@@ -15,3 +16,5 @@ cluster:
       zone: us-east-1
       service_key: # FIXME: Use role assumpmtions when hubploy supports them
       cluster: cob-test-eks
+      project: 162808325377
+      role: arn:aws:iam::162808325377:role/cob-test-eks-hubploy-eks
